@@ -114,20 +114,11 @@ id是一个指向objc_object结构体的指针
 ```
 
 也就是说
-
 - NSObject的数据成员就只有一个指向objc_class结构体的指针。
 
 对比一下
 
 - objc_ object 的数据成员 也是只有一个指向objc_class的一个指针
-
-
-
-
-
-
-
-
 
 
 		数据结构NSObject，objc_class，objc_object都
